@@ -1,0 +1,19 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: tracking-service
+  redis:
+    host: redis
+    port: 6379
+  cache:
+    type: redis
+
+tracking:
+  redis:
+    ttl-seconds: 120
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:8761/eureka/
