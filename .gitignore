@@ -1,0 +1,8 @@
+# Ignore Maven build output
+**/target/
+
+# IDE
+.idea/
+
+# Local env
+.env
